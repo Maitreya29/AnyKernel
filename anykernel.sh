@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=LazyKernel by ederekun
+kernel.string=LazyKernel for custom by ederekun
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -15,7 +15,7 @@ device.name2=OnePlus5T
 device.name3=cheeseburger
 device.name4=OnePlus5
 device.name5=
-supported.versions=9
+supported.versions=10
 supported.patchlevels=
 '; } # end properties
 
