@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Lazy Kernel by ederekun
+kernel.string=Tanjiro Kernel by @maitreya29
 do.devicecheck=1
 do.modules=0
 do.systemless=1
