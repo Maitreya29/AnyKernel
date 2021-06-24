@@ -465,13 +465,37 @@ if [ -f banner ]; then
   ui_print " " " ";
 fi;
 
-KERNEL_STRING="$(file_getprop anykernel.sh kernel.string)";
 ui_print "$KERNEL_STRING";
 if [ -f version ]; then
   ui_print " ";
   ui_printfile version;
   ui_print " ";
 fi;
+
+ui_print "=======================================";
+ui_print "             ,:\                       ";
+ui_print "            //  \_()______             ";
+ui_print "           ||   |    |   ||            ";
+ui_print "           ||   |    |   ||            ";
+ui_print "           ||   |____|___||            ";
+ui_print "            \   / ||                   ";
+ui_print "             \_/  ||                   ";
+ui_print "                  ||                   ";
+ui_print "                  ||                   ";
+ui_print "                  XX                   ";
+ui_print "                  XX                   ";
+ui_print "                  XX                   ";
+ui_print "                  OO                   ";
+ui_print "                  OO                   ";
+ui_print "                  XX                   ";
+ui_print " =====================================";
+ui_print " ";
+ui_print "- Stormbreaker Kernel for OnePlus 5/T";
+ui_print " ";
+ui_print "- Maintainer: Maitreya Patni";
+ui_print "=======================================";
+ui_print "AnyKernel3 by osm0sis @ xda-developers";
+ui_print "=======================================";
 
 setup_env;
 
